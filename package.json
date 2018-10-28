@@ -1,0 +1,29 @@
+{
+  "name": "rocket-shop",
+  "version": "1.0.0",
+  "description": "Pluralsight tutorial",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/binaryberry/rocket-shop.git"
+  },
+  "author": "Tatiana Stantonian",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/binaryberry/rocket-shop/issues"
+  },
+  "homepage": "https://github.com/binaryberry/rocket-shop#readme",
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "sinon": "^7.1.0"
+  },
+  "dependencies": {
+    "moment": "^2.22.2"
+  }
+}
